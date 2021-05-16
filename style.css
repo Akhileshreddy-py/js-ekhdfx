@@ -20,7 +20,7 @@ top:165px;
 }
 .Dino
 {
-animation: jump 500ms infinite;
+animation: jump 200ms infinite;
 animation-direction: alternate;
 }
 #enemy
@@ -49,7 +49,7 @@ to{
   }
   to
   {
-    top:140px;
+    top:130px;
   }
 }
 
