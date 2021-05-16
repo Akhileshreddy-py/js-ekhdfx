@@ -18,9 +18,13 @@ background-color: blue;
 position:relative;
 top:165px;
 }
+.Dino
+{
+animation: jump 500ms infinite;
+animation-direction: alternate;
+}
 #enemy
 {
-
 width:10px;
 height:15px;
 background-color: grey;
@@ -38,3 +42,17 @@ to{
   left:-40px;
 }
 }
+@keyframes jump
+{
+  from{
+    top:165px;
+  }
+  to
+  {
+    top:140px;
+  }
+}
+
+
+
+
