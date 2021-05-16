@@ -16,7 +16,7 @@ enemy=document.getElementById("enemy");
 var est=getComputedStyle(enemy).left;
 if(est="0px")
 {
-  alert("")
+  alert("gfbh")
 }
 console.log(est);
 }
