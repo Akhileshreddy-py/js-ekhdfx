@@ -31,7 +31,7 @@ background-color: grey;
 position:relative;
 top:150px;
 left:390px;
-animation: move 2s infinite;
+animation: move 1s infinite;
 }
 @keyframes move{
 from
