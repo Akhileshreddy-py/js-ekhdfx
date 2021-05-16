@@ -1,0 +1,43 @@
+*
+{
+  padding: 0px;
+  margin: 0px;
+}
+#app
+{
+  border:2px solid red;
+  width:400px;
+  height: 200px;
+overflow: hidden;
+ma
+}
+#dino
+{
+width:10px;
+height:35px;
+background-color: blue;
+position:relative;
+top:165px;
+}
+#enemy
+{
+
+width:10px;
+height:15px;
+background-color: grey;
+position:relative;
+top:150px;
+left:390px;
+animation: move 2s infinite;
+
+}
+
+@keyframes move{
+from
+{
+  left:400px;
+}
+to{
+  left:-40px;
+}
+}
